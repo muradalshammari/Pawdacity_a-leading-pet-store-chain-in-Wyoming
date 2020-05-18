@@ -4,16 +4,16 @@ To create a dataset (Data Analysis)
 Project 2.1: Data Cleanup
 
 
-#Step 1: Business and Data Understanding
+# Step 1: Business and Data Understanding
 
 
-##Key Decisions:
+## Key Decisions:
 
-###1.	What decisions needs to be made?
+### 1.	What decisions needs to be made?
 
 Well, From the available data we need to provide information to the decision maker in Pawdacity (a leading pet store chain in Wyoming). The analysis is to recommend the city for Pawdacity’s newest store, based on predicted yearly sales.
 
-###2.	What data is needed to inform those decisions?
+### 2.	What data is needed to inform those decisions?
 
 Because the monthly sales represent the year of 2010, the following data are needed:
 
@@ -25,26 +25,33 @@ Because the monthly sales represent the year of 2010, the following data are nee
 6-	Population Density
 7-	Total Families
 
-#Step 2: Building the Training Set
+# Step 2: Building the Training Set
 
 Column|	Sum|	Average
+| --- | --- | --- |
 Census Population|	213,862|	19,442
+| --- | --- | --- |
 Total Pawdacity Sales|	3,773,304|	343,028
+| --- | --- | --- |
 Households with Under 18|	34,064|	3,097
+| --- | --- | --- |
 Land Area|	33,071|	3,006
+| --- | --- | --- |
 Population Density|	63|	5.7
+| --- | --- | --- |
 Total Families|	62,653|	5,696
+| --- | --- | --- |
 
 
 Note: Screen shot for the result (By Alteryx): check the workflow
 
  
-#Step 3: Dealing with Outliers
+# Step 3: Dealing with Outliers
 
 
-##A-	Charts To help deciding what outlier to remove:
+## A-	Charts To help deciding what outlier to remove:
 
-###1-	I will show below the scatter plots for all predictors (By Alteryx):
+### 1-	I will show below the scatter plots for all predictors (By Alteryx):
 
 
 
@@ -55,7 +62,7 @@ Note: Screen shot for the result (By Alteryx): check the workflow
 
 
 
-###2-	I will provide information about (IQR, Upper Fence, and Lower Fence) by Excel:
+### 2-	I will provide information about (IQR, Upper Fence, and Lower Fence) by Excel:
 
 Field | Q1 | Q3	| IQR	| Upper fence	| Lower fence
 | --- | --- | --- | --- | --- | --- |
@@ -73,17 +80,17 @@ Total Sales Value | 226,152.00 | 312,984.00 | 86,832.00 | 443,232.00 | 95,904.00
 | --- | --- | --- | --- | --- | --- |
 
 
-###3-	Histogram For all the predictors (By Alteryx):
+### 3-	Histogram For all the predictors (By Alteryx):
 
  
 
 
-###4-	Summary of the final Dataset (By Alteryx):
+### 4-	Summary of the final Dataset (By Alteryx):
 
  
 
 
-###5-	Cities that are outliers (Above the upper Fence):
+### 5-	Cities that are outliers (Above the upper Fence):
 
 Cheyenne - 2010 Census
 Rock Springs - Land Area
@@ -93,7 +100,7 @@ Gillette and Cheyenne - Total Sales Value
 
 
 
-##B-	Analysis and Decision:
+## B-	Analysis and Decision:
 
 From A.5 Cities that are outliers (Above the upper Fence), I need to decide among them which city the dataset analysis will allow me to remove. The cities are:
 
@@ -102,7 +109,7 @@ From A.5 Cities that are outliers (Above the upper Fence), I need to decide amon
 -	Gillette.
 
 
-###Cheyenne:
+### Cheyenne:
 
 Considered outlier in total sales, total families, population density, and census of 2010.
 And that reasonable to be outlier but I cannot remove it because the correlation between the three factors is very high. Please see the following image:
@@ -110,12 +117,12 @@ And that reasonable to be outlier but I cannot remove it because the correlation
  
 
 
-###Rock Springs:
+### Rock Springs:
 
 It is a city considered outlier in the Land Area. Its situation will affect the decision that management will make. Because it matches the request of the management about the city that needs to put two more stores in it. The sales in the city almost the average among all the cities. 
 
 
-###Gillette:
+### Gillette:
 
 The sales value is very high, but the Land Area is below the average. So, this information cannot be explained. Gillette will be the outlier I can remove. It is not like the case of Cheyenne and not the same case of Rock Springs, the main reason to remove this city, as follow:
 
@@ -123,12 +130,12 @@ The sales value is very high, but the Land Area is below the average. So, this i
 -	No need to increase the number of the stores.
 -	The sales value does not match with the correlation table.
 
-##C-	 Workflow (By Alteryx):
+## C-	 Workflow (By Alteryx):
 
 
 Check_workflow
  
-##D-	Tools I used in Alteryx:
+## D-	Tools I used in Alteryx:
 
  
 check workflow
