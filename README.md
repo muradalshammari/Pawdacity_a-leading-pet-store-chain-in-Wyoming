@@ -27,6 +27,8 @@ Because the monthly sales represent the year of 2010, the following data are nee
 
 # Step 2: Building the Training Set
 
+
+
 Column|	Sum|	Average
 | --- | --- | --- |
 Census Population|	213,862|	19,442
@@ -53,20 +55,29 @@ Note: Screen shot for the result (By Alteryx): check the workflow
 
 ## A-	Charts To help deciding what outlier to remove:
 
+
+
 ### 1-	I will show below the scatter plots for all predictors (By Alteryx):
 
 
 ![](images/chart1.png)
+---------------------------------------------------
+
 ![](images/chart2.png)
+---------------------------------------------------
 
 ![](images/chart3.png)
+---------------------------------------------------
+
 ![](images/chart4.png)
+---------------------------------------------------
 
 ![](images/chart5.png)
-
+---------------------------------------------------
 
 
 ### 2-	I will provide information about (IQR, Upper Fence, and Lower Fence) by Excel:
+
 
 Field | Q1 | Q3	| IQR	| Upper fence	| Lower fence
 | --- | --- | --- | --- | --- | --- |
@@ -86,10 +97,12 @@ Total Sales Value | 226,152.00 | 312,984.00 | 86,832.00 | 443,232.00 | 95,904.00
 
 ### 3-	Histogram For all the predictors (By Alteryx):
 
+
  ![](images/histo.png)
 
 
 ### 4-	Summary of the final Dataset (By Alteryx):
+
 
  ![](images/summary.png)
 
@@ -136,7 +149,7 @@ The sales value is very high, but the Land Area is below the average. So, this i
 
 ## C-	 Workflow (By Alteryx):
 
-
+![](images/workflow.png)
  
 ## D-	Tools I used in Alteryx:
 
