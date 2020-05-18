@@ -56,12 +56,12 @@ Note: Screen shot for the result (By Alteryx): check the workflow
 ### 1-	I will show below the scatter plots for all predictors (By Alteryx):
 
 
-
- 	 
- 	 check the workflow
- 	
-
-
+| ![](images/chart1.png) | ![](images/chart2.png |
+| --- | --- |
+| ![](images/chart3.png) | ![](images/chart4.png |
+| --- | --- |
+| ![](images/chart5.png) | --- |
+| --- | --- |
 
 
 ### 2-	I will provide information about (IQR, Upper Fence, and Lower Fence) by Excel:
