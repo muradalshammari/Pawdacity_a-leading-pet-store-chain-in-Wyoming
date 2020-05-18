@@ -1,4 +1,4 @@
-# Pawdacity_a-leading%20pet%20store%20chain%20in%20Wyoming
+# Pawdacity_a_leading_pet_store_chain_in_Wyoming
 To create a dataset (Data Analysis)
 
 Project 2.1: Data Cleanup
