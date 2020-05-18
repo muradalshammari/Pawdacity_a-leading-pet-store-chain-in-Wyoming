@@ -86,12 +86,12 @@ Total Sales Value | 226,152.00 | 312,984.00 | 86,832.00 | 443,232.00 | 95,904.00
 
 ### 3-	Histogram For all the predictors (By Alteryx):
 
- 
+ ![](images/histo.png)
 
 
 ### 4-	Summary of the final Dataset (By Alteryx):
 
- 
+ ![](images/summary.png)
 
 
 ### 5-	Cities that are outliers (Above the upper Fence):
@@ -118,7 +118,7 @@ From A.5 Cities that are outliers (Above the upper Fence), I need to decide amon
 Considered outlier in total sales, total families, population density, and census of 2010.
 And that reasonable to be outlier but I cannot remove it because the correlation between the three factors is very high. Please see the following image:
 
- 
+ ![](images/corr.png)
 
 
 ### Rock Springs:
@@ -137,10 +137,7 @@ The sales value is very high, but the Land Area is below the average. So, this i
 ## C-	 Workflow (By Alteryx):
 
 
-Check_workflow
  
 ## D-	Tools I used in Alteryx:
 
- 
-check workflow
-
+![](images/tools.png)
