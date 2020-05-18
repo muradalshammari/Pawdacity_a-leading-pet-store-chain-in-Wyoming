@@ -58,12 +58,19 @@ Note: Screen shot for the result (By Alteryx): check the workflow
 ###2-	I will provide information about (IQR, Upper Fence, and Lower Fence) by Excel:
 
 Field | Q1 | Q3	| IQR	| Upper fence	| Lower fence
+| --- | --- | --- | --- | --- | --- |
 2010 Census	| 7,917.00 | 26,061.50 | 18,144.50 | 53,278.25 | (19,299.75)
+| --- | --- | --- | --- | --- | --- |
 Land Area | 1,861.72 | 3,504.91 | 1,643.19 | 5,969.69 | (603.06)
+| --- | --- | --- | --- | --- | --- |
 Households with Under 18	| 1,327.00 | 4,037.00 | 2,710.00 | 8,102.00 | (2,738.00)
+| --- | --- | --- | --- | --- | --- |
 Population Density | 1.72 | 7.39 | 5.67 | 15.90 | (6.79)
+| --- | --- | --- | --- | --- | --- |
 Total Families | 2,923.41 | 7,380.81 | 4,457.40 | 14,066.90 | (3,762.68)
+| --- | --- | --- | --- | --- | --- |
 Total Sales Value | 226,152.00 | 312,984.00 | 86,832.00 | 443,232.00 | 95,904.00 
+| --- | --- | --- | --- | --- | --- |
 
 
 ###3-	Histogram For all the predictors (By Alteryx):
