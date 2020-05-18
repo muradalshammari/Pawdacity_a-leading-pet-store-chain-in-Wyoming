@@ -45,6 +45,8 @@ Total Families|	62,653|	5,696
 
 Note: Screen shot for the result (By Alteryx): check the workflow
 
+![](images/averages_screen_shot.png)
+
  
 # Step 3: Dealing with Outliers
 
