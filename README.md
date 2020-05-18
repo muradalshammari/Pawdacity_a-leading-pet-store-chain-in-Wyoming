@@ -109,11 +109,17 @@ Total Sales Value | 226,152.00 | 312,984.00 | 86,832.00 | 443,232.00 | 95,904.00
 
 ### 5-	Cities that are outliers (Above the upper Fence):
 
-Cheyenne - 2010 Census
-Rock Springs - Land Area
-Cheyenne - Population Density
-Cheyenne - Total Families
-Gillette and Cheyenne - Total Sales Value
+| ---|
+|Cheyenne - 2010 Census|
+| ---|
+|Rock Springs - Land Area|
+| ---|
+|Cheyenne - Population Density|
+| ---|
+|Cheyenne - Total Families|
+| ---|
+|Gillette and Cheyenne - Total Sales Value|
+| ---|
 
 
 
