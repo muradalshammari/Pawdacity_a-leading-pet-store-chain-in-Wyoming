@@ -5,6 +5,8 @@ Project 2.1: Data Cleanup
 
 
 #Step 1: Business and Data Understanding
+
+
 ##Key Decisions:
 
 ###1.	What decisions needs to be made?
